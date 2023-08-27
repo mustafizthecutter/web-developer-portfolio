@@ -1,0 +1,39 @@
+/* common shared styles */
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+.text-primary {
+    color: rgba(253, 110, 10, 1);
+}
+
+/* nav related styles */
+
+nav {
+    display: flex;
+}
+
+.nav-title {
+    color: var(--dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+
+}
